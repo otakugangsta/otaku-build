@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "https://otaku-build.vercel.app/static/css/main.ee9e1dbc.css",
-    "main.js": "https://otaku-build.vercel.app/static/js/main.b7066297.js",
-    "static/media/loader-bg.jpg": "https://otaku-build.vercel.app/static/media/loader-bg.ad88e0b01d404839ae47.jpg",
-    "static/media/circle.png": "https://otaku-build.vercel.app/static/media/circle.8d369ef5292697ff704b.png",
-    "index.html": "https://otaku-build.vercel.app/index.html"
+    "main.css": "https://agarminty.ucoz.net/game/static/css/main.8f8d2121.chunk.css",
+    "main.js": "https://agarminty.ucoz.net/game/static/js/main.ed438c60.chunk.js",
+    "runtime-main.js": "https://agarminty.ucoz.net/game/static/js/runtime-main.310cccb7.js",
+    "static/js/2.5de4b5f7.chunk.js": "https://agarminty.ucoz.net/game/static/js/2.5de4b5f7.chunk.js",
+    "index.html": "https://agarminty.ucoz.net/game/index.html",
+    "static/js/2.5de4b5f7.chunk.js.LICENSE.txt": "https://agarminty.ucoz.net/game/static/js/2.5de4b5f7.chunk.js.LICENSE.txt",
+    "static/media/index.module.scss": "https://agarminty.ucoz.net/game/static/media/loader-bg.ad88e0b0.jpg"
   },
   "entrypoints": [
-    "static/css/main.ee9e1dbc.css",
-    "static/js/main.b7066297.js"
+    "static/js/runtime-main.310cccb7.js",
+    "static/js/2.5de4b5f7.chunk.js",
+    "static/css/main.8f8d2121.chunk.css",
+    "static/js/main.ed438c60.chunk.js"
   ]
 }
