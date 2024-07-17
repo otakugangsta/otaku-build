@@ -35963,7 +35963,7 @@
               return {
                 Arctida: "wss://imsolo.pro:2109/",
                 Dagestan: "wss://imsolo.pro:2108/",
-                "Delta FFA": "wss://delta-ffa.glitch.me",
+                "Delta FFA": "wss://ffa1.agariodns.cyou",
                 FeelForeverAlone: "wss://imsolo.pro:2102",
                 "N.A. FFA": "wss://delta-ffa-production.up.railway.app",
                 "N.A. Party": "wss://delta-server-production.up.railway.app",
