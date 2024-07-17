@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "https://otaku-tawny.vercel.app/static/css/main.ee9e1dbc.css",
-    "main.js": "https://otaku-tawny.vercel.app/static/js/main.b7066297.js",
-    "static/media/loader-bg.jpg": "https://otaku-tawny.vercel.app/static/media/loader-bg.ad88e0b01d404839ae47.jpg",
-    "static/media/circle.png": "https://otaku-tawny.vercel.app/static/media/circle.8d369ef5292697ff704b.png",
-    "index.html": "https://otaku-tawny.vercel.app/index.html"
+    "main.css": "https://otaku-build.vercel.app/static/css/main.ee9e1dbc.css",
+    "main.js": "https://otaku-build.vercel.app/static/js/main.b7066297.js",
+    "static/media/loader-bg.jpg": "https://otaku-build.vercel.app/static/media/loader-bg.ad88e0b01d404839ae47.jpg",
+    "static/media/circle.png": "https://otaku-build.vercel.app/static/media/circle.8d369ef5292697ff704b.png",
+    "index.html": "https://otaku-build.vercel.app/index.html"
   },
   "entrypoints": [
     "static/css/main.ee9e1dbc.css",
