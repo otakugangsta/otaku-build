@@ -21130,6 +21130,12 @@
               void 0 === e ||
               e.updateGhostCells(t);
           }),
+          (t.prototype.setProtocolVersion = function (t) {
+            var e;
+            null === (e = window.FrontAPI) ||
+              void 0 === e ||
+              e.setProtocolVersion(t);
+          }),
           (t.prototype.setFacebookLogged = function (t) {
             var e;
             null === (e = window.FrontAPI) ||
@@ -36109,25 +36115,32 @@
               });
             }),
             (t.prototype.setProtocolVersion = function () {
-              return n(this, void 0, void 0, (function () {
-                  var t = this;
-                  return o(this, (function (e) {
-                      return [2, this.fetch(this.AGAR_CORE).then((function (t) {
-                          return t.text()
-                      })).then((function (e) {
-                          const match = e.match(/\w\[\w\+\d+>>\d\]=\w;\w+\(\w,(\d+)\);/);
-                          if (match) {
-                              t.protocolVersion = Number(match[1]);
-                          } else {
-                              t.protocolVersion = 23;
-                          }
-                          setTimeout((function () {
-                              return p.default.setProtocolVersion(t.protocolVersion)
-                          }), 200)
-                      }))]
-                  }))
-              }))
-          }),
+              return n(this, void 0, void 0, function () {
+                var t = this;
+                return o(this, function (e) {
+                  return [
+                    2,
+                    this.fetch(this.AGAR_CORE)
+                      .then(function (t) {
+                        return t.text();
+                      })
+                      .then(function (e) {
+                        const match = e.match(
+                          /\w\[\w\+\d+>>\d\]=\w;\w+\(\w,(\d+)\);/
+                        );
+                        if (match) {
+                          t.protocolVersion = Number(match[1]);
+                        } else {
+                          t.protocolVersion = 23;
+                        }
+                        setTimeout(function () {
+                          return p.default.setProtocolVersion(t.protocolVersion);
+                        }, 200);
+                      }),
+                  ];
+                });
+              });
+            }),
             (t.prototype.assembleSocketData = function (t) {
               var e = t.token
                   ? "wss://" + t.endpoints.https + "?party_id=" + t.token
