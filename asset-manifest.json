@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "https://otaku-build.vercel.app/static/css/main.8f8d2121.chunk.css",
-    "main.js": "https://otaku-build.vercel.app/static/js/main.ed438c60.chunk.js",
-    "runtime-main.js": "https://otaku-build.vercel.app/static/js/runtime-main.310cccb7.js",
+    "main.css": "https://otaku-build.vercel.app/static/css/main.fab183d7.chunk.css",
+    "main.js": "https://otaku-build.vercel.app/static/js/main.df2c570b.chunk.js",
+    "runtime-main.js": "https://otaku-build.vercel.app/static/js/runtime-main.5957e993.js",
     "static/js/2.5de4b5f7.chunk.js": "https://otaku-build.vercel.app/static/js/2.5de4b5f7.chunk.js",
     "index.html": "https://otaku-build.vercel.app/index.html",
     "static/js/2.5de4b5f7.chunk.js.LICENSE.txt": "https://otaku-build.vercel.app/static/js/2.5de4b5f7.chunk.js.LICENSE.txt",
     "static/media/index.module.scss": "https://otaku-build.vercel.app/static/media/loader-bg.ad88e0b0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.310cccb7.js",
+    "static/js/runtime-main.5957e993.js",
     "static/js/2.5de4b5f7.chunk.js",
-    "static/css/main.8f8d2121.chunk.css",
-    "static/js/main.ed438c60.chunk.js"
+    "static/css/main.fab183d7.chunk.css",
+    "static/js/main.df2c570b.chunk.js"
   ]
 }
