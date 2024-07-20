@@ -36130,8 +36130,8 @@
                       return t.text();
                     })
                     .then(function (e) {
-                      t.protocolVersion = Number(
-                        e.match(/\w\[\w\+\d+>>\d\]=\w;\w+\(\w,(\d+)\);/)[1]
+                      const match = e.match(
+                        /\w\[\w\+\d+>>\d\]=\w;\w+\(\w,(\d+)\);/
                       );
                       if (match) {
                         t.protocolVersion = Number(match[1]);
@@ -36139,7 +36139,7 @@
                         t.protocolVersion = 23;
                       }
                       setTimeout(function () {
-                        return f.default.setProtocolVersion(t.protocolVersion);
+                        return p.default.setProtocolVersion(t.protocolVersion);
                       }, 200);
                     }),
                 ];
