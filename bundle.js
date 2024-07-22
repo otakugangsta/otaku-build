@@ -25656,9 +25656,9 @@
           (e.prototype.getInt16 = function () {
             return this.view.getInt16((this.offset += 2) - 2, !0);
           }),
-        //   (e.prototype.getUint32 = function () {
-        //     return this?.view?.getUint32((this?.offset += 4) - 4, !0);
-        //   }),
+          (e.prototype.getUint32 = function () {
+            return this.view.getUint32((this.offset += 4) - 4, !0);
+          }),
           (e.prototype.getInt32 = function () {
             return this.view.getInt32((this.offset += 4) - 4, !0);
           }),
@@ -35957,7 +35957,7 @@
             return {
               Arctida: "wss://imsolo.pro:2109/",
               Dagestan: "wss://imsolo.pro:2108/",
-              "Delta FFA": "wss://ffa3.agariodns.cyou",
+              "Delta FFA": "wss://server.z2se.in:5556?key=933d1fe88",
               FeelForeverAlone: "wss://imsolo.pro:2102",
               "N.A. FFA": "wss://delta-ffa-production.up.railway.app",
               "N.A. Party": "wss://delta-server-production.up.railway.app",
