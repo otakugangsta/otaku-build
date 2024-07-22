@@ -25657,7 +25657,7 @@
             return this.view.getInt16((this.offset += 2) - 2, !0);
           }),
           (e.prototype.getUint32 = function () {
-            return this.view.getUint32((this.offset += 4) - 4, !0);
+            return this?.view?.getUint32((this?.offset += 4) - 4, !0);
           }),
           (e.prototype.getInt32 = function () {
             return this.view.getInt32((this.offset += 4) - 4, !0);
