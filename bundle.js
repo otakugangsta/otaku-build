@@ -35955,14 +35955,14 @@
           }),
           (t.prototype.getPrivateServerWs = function () {
             return {
-              Arctida: "wss://imsolo.pro:2109/",
-              Dagestan: "wss://imsolo.pro:2108/",
+              Arctida: "wss://server.z2se.in:5556/",
+              Dagestan: "wss://server.z2se.in:5556/",
               "Delta FFA": "wss://server.z2se.in:5556",
               FeelForeverAlone: "wss://imsolo.pro:2102",
               "N.A. FFA": "wss://delta-ffa-production.up.railway.app",
               "N.A. Party": "wss://delta-server-production.up.railway.app",
               "Private Party": "wss://tragedy-party.glitch.me",
-              Rookery: "wss://imsolo.pro:2104/",
+              Rookery: "wss://server.z2se.in:5556/",
               Zimbabwe: "wss://delta-selffeed.glitch.me",
             }[this.regions.getCurrent()];
           }),
