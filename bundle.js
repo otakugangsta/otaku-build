@@ -35957,7 +35957,7 @@
             return {
               Arctida: "wss://imsolo.pro:2109/",
               Dagestan: "wss://imsolo.pro:2108/",
-              "Delta FFA": "wss://server.z2se.in:5556?key=933d1fe88",
+              "Delta FFA": "wss://server.z2se.in:5556",
               FeelForeverAlone: "wss://imsolo.pro:2102",
               "N.A. FFA": "wss://delta-ffa-production.up.railway.app",
               "N.A. Party": "wss://delta-server-production.up.railway.app",
